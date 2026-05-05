@@ -148,6 +148,9 @@ cd app && bash setup.sh ios    # or: bash setup.sh android
 - [Audio Streaming Pipeline](https://docs.omi.me/doc/developer/backend/listen_pusher_pipeline)
 - [BLE Protocol](https://docs.omi.me/doc/developer/Protocol)
 
+### Security & Research
+- [OSINT External Tool Evaluation Guide](docs/osint-external-tool-evaluation.md) — defensive-only checklist for safely assessing external OSINT repositories
+
 ## Omi Hardware
 ![Omi](https://github.com/user-attachments/assets/7a658366-9e02-4057-bde5-a510e1f0217a)
 
