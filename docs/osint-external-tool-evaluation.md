@@ -1,6 +1,6 @@
 # OSINT External Tool Evaluation Guide
 
-> **Scope:** This guide covers the safe, defensive-only evaluation of external OSINT (Open-Source Intelligence) repositories. It does **not** authorize or describe offensive scraping, credential harvesting, evasion techniques, or any action that targets real systems or individuals without explicit authorisation.
+> **Scope:** This guide covers the safe, defensive-only evaluation of external OSINT (Open-Source Intelligence) repositories. It does **not** authorize or describe offensive scraping, credential harvesting, evasion techniques, or any action that targets real systems or individuals without explicit authorization.
 
 ---
 
@@ -86,11 +86,13 @@ For each dependency declared by the external tool:
 - [ ] No dependency overrides pinned versions with `--trusted-host`, `--extra-index-url`, or equivalent bypass flags.
 - [ ] Post-install scripts (`postinstall`, `setup.py` hooks) have been reviewed and do not make network calls.
 
+
+
 ---
 
 ## Legal / Ethical Checklist
 
-- [ ] The tool's licence is compatible with Omi's MIT licence (if integration is being considered).
+- [ ] The tool's license is compatible with Omi's MIT license (if integration is being considered).
 - [ ] The tool does not instruct users to violate terms of service of third-party platforms.
 - [ ] The tool does not facilitate scraping of personal data without consent (GDPR Article 6 / CCPA).
 - [ ] The tool has a clear, documented, defensive-research use case stated by its maintainers.
