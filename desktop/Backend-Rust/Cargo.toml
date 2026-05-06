@@ -20,7 +20,7 @@ reqwest = { version = "0.11", features = ["json", "stream"] }
 tokio-tungstenite = { version = "0.24.0", features = ["native-tls"] }
 
 # Authentication
-jsonwebtoken = "9"
+jsonwebtoken = "10"
 
 # Utilities
 dotenvy = "0.15"
@@ -42,7 +42,7 @@ hkdf = "0.12"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "local-time"] }
 tracing-appender = "0.2"
-time = { version = "0.3.36", features = ["macros", "formatting", "local-offset"] }
+time = { version = "0.3.47", features = ["macros", "formatting", "local-offset"] }
 
 # Async utilities
 futures = "0.3"
