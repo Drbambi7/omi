@@ -1,10 +1,10 @@
 fastapi==0.111.1
 uvicorn==0.30.3
 python-dotenv==1.2.2
-requests==2.33.0
+requests==2.33.1
 pydantic==2.8.2
-Jinja2==3.1.4
-python-multipart==0.0.26
+Jinja2==3.1.6
+python-multipart==0.0.27
 aiohttp==3.13.4
 redis==5.0.1
 
