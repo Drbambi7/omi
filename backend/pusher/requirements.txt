@@ -53,7 +53,7 @@ langchain-openai==1.1.14
 langchain-pinecone==0.2.12
 langchain-text-splitters==1.1.2
 langgraph==0.6.10
-langsmith==0.8.0
+langsmith==0.8.18
 
 # Vector databases
 pinecone==7.3.0
