@@ -23,7 +23,7 @@
     "ioredis": "^5.6.1",
     "lucide-react": "^0.515.0",
     "mixpanel-browser": "^2.56.0",
-    "next": "15.0.3",
+    "next": "15.5.15",
     "openai": "^4.73.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -34,7 +34,7 @@
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "ulid": "^2.3.0",
-    "uuid": "^11.0.3"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@types/mixpanel-browser": "^2.50.2",
@@ -45,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.6",
+    "eslint-config-next": "^16.2.5",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.10.2",
