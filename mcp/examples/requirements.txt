@@ -1,10 +1,10 @@
 aiohappyeyeballs==2.6.1
-aiohttp==3.14.1
+aiohttp==3.14.3
 aiosignal==1.3.2
 alembic==1.15.2
 altair==5.5.0
 annotated-types==0.7.0
-anyio==4.9.0
+anyio==4.14.2
 asyncer==0.0.8
 attrs==25.3.0
 backoff==2.2.1
@@ -33,7 +33,7 @@ fonttools==4.57.0
 frozenlist==1.6.0
 fsspec==2025.3.0
 gitdb==4.0.12
-GitPython==3.1.44
+GitPython==3.1.59
 google-auth==2.40.0
 graphene==3.4.3
 graphql-core==3.2.6
@@ -65,7 +65,7 @@ langgraph-checkpoint==2.0.25
 langgraph-prebuilt==0.1.8
 langgraph-sdk==0.1.66
 langsmith==0.8.0
-litellm==1.68.0
+litellm==1.84.0
 magicattr==0.1.6
 Mako==1.3.10
 Markdown==3.8
@@ -119,7 +119,7 @@ six==1.17.0
 smmap==5.0.2
 sniffio==1.3.1
 SQLAlchemy==2.0.40
-sqlparse==0.5.3
+sqlparse==0.6.0
 sse-starlette==2.3.4
 starlette==1.3.1
 streamlit==1.45.0
@@ -128,7 +128,7 @@ threadpoolctl==3.6.0
 tiktoken==0.9.0
 tokenizers==0.21.1
 toml==0.10.2
-tornado==6.5.7
+tornado==6.5.8
 tqdm==4.67.1
 types-requests==2.32.0.20250328
 typing-inspection==0.4.0
