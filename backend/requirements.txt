@@ -9,7 +9,7 @@ altair==5.4.0
 anthropic>=0.52.0
 annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
-anyio==4.4.0
+anyio==4.14.2
 assemblyai==0.33.0
 asttokens==2.4.1
 attrs==24.1.0
@@ -28,7 +28,7 @@ coloredlogs==15.0.1
 colorlog==6.8.2
 contourpy==1.2.1
 croniter==1.4.1
-cryptography==48.0.1
+cryptography==50.0.0
 cycler==0.12.1
 dataclasses-json==0.6.7
 decorator==5.1.1
@@ -50,7 +50,7 @@ fonttools==4.53.1
 frozenlist==1.4.1
 fsspec==2024.6.1
 gitdb==4.0.11
-GitPython==3.1.43
+GitPython==3.1.62
 google-api-core==2.19.1
 google-api-python-client==2.139.0
 google-auth==2.32.0
@@ -69,7 +69,7 @@ grpcio-tools==1.62.3
 grpclib==0.4.7
 h11==0.16.0
 h2==4.3.0
-hpack==4.0.0
+hpack==4.2.0
 httpcore==1.0.5
 httplib2==0.22.0
 httptools==0.6.1
@@ -155,7 +155,7 @@ pydantic_core==2.20.1
 pydeck==0.9.1
 pydub==0.25.1
 Pygments==2.18.0
-PyJWT==2.9.0
+PyJWT==2.15.0
 pynndescent==0.5.13
 PyOgg @ git+https://github.com/TeamPyOgg/PyOgg@6871a4f234e8a3a346c4874a12509bfa02c4c63a
 pyparsing==3.1.2
@@ -197,7 +197,7 @@ tenacity==8.2.3
 threadpoolctl==3.5.0
 tiktoken==0.7.0
 toml==0.10.2
-tornado==6.5.7
+tornado==6.5.9
 tqdm==4.66.5
 traitlets==5.14.3
 typer==0.12.3
@@ -208,7 +208,7 @@ typing_extensions==4.12.2
 tzdata==2024.1
 umap-learn==0.5.6
 uritemplate==4.1.1
-urllib3==2.7.0
+urllib3==2.8.0
 uvicorn==0.30.5
 uvloop==0.20.0
 watchdog==4.0.2
