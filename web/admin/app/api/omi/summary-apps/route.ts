@@ -4,6 +4,12 @@ import { verifyAdmin } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
+function isValidAppId(appId: unknown): appId is string {
+  if (typeof appId !== 'string') return false;
+  // Allow common ID characters only; deny path/query/control characters.
+  return /^[A-Za-z0-9_-]{1,128}$/.test(appId);
+}
+
 async function fetchSummaryAppIds(): Promise<string[]> {
   const baseUrl = process.env.NEXT_PUBLIC_OMI_API_URL;
   const secret = process.env.OMI_API_SECRET_KEY;
@@ -100,8 +106,8 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { appId } = body;
 
-    if (!appId) {
-      return NextResponse.json({ error: 'App ID is required' }, { status: 400 });
+    if (!isValidAppId(appId)) {
+      return NextResponse.json({ error: 'Valid App ID is required' }, { status: 400 });
     }
 
     const baseUrl = process.env.NEXT_PUBLIC_OMI_API_URL;
@@ -110,7 +116,9 @@ export async function POST(request: NextRequest) {
       throw new Error('OMI API env vars missing');
     }
 
-    const res = await fetch(`${baseUrl}/v1/summary-app-ids/${appId}`, {
+    const normalizedBaseUrl = baseUrl.replace(/\/+$/, '');
+    const safeAppId = encodeURIComponent(appId);
+    const res = await fetch(`${normalizedBaseUrl}/v1/summary-app-ids/${safeAppId}`, {
       method: 'POST',
       headers: {
         'secret-key': secret,
